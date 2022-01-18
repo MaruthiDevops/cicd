@@ -5,3 +5,13 @@ git commit -m "commit message"
 git branch -M main
 git remote add origin https://github.com/MaruthiDevops/MaruthiDevops.git
 git push -u origin main
+
+========
+git log  ( to get the log status of all commits)
+git log -p (One of the more helpful options is -p or --patch, which shows the difference (the patch output) introduced in each commit. You can also limit the number of log entries displayed, such as using -2 to show only the last two entries.)
+git log --stat   (As you can see, the --stat option prints below each commit entry a list of modified files, how many files were changed, and how many lines in those files were added and removed. It also puts a summary of the information at the end.)
+
+$ git log --pretty=format:"%h - %an, %ar : %s"
+5552c25 - MaruthiDevops, 7 minutes ago : git commands commit
+8a2e692 - MaruthiDevops, 10 minutes ago : second commit
+2b54eca - MaruthiDevops, 15 minutes ago : commit
