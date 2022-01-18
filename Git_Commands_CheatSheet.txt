@@ -4,6 +4,7 @@ git add <specific_file>
 git commit -m "commit message"
 git branch -M main
 git remote add origin https://github.com/MaruthiDevops/MaruthiDevops.git
+<<<<<<< HEAD
 git push -u origin main
 
 ========
@@ -15,3 +16,6 @@ $ git log --pretty=format:"%h - %an, %ar : %s"
 5552c25 - MaruthiDevops, 7 minutes ago : git commands commit
 8a2e692 - MaruthiDevops, 10 minutes ago : second commit
 2b54eca - MaruthiDevops, 15 minutes ago : commit
+=======
+git push -u origin main
+>>>>>>> 5552c25e99986cfabf1d3dbe7fd5559ac841f31c
