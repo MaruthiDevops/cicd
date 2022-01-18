@@ -1,0 +1,7 @@
+git init
+git add . ( all files )
+git add <specific_file>
+git commit -m "commit message"
+git branch -M main
+git remote add origin https://github.com/MaruthiDevops/MaruthiDevops.git
+git push -u origin main
